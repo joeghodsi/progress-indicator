@@ -1,0 +1,23 @@
+{
+  "name": "progress-indicator",
+  "version": "0.0.1",
+  "main": "server.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joeghodsi/progress-indicator.git"
+  },
+  "author": "joeghodsi",
+  "bugs": {
+    "url": "https://github.com/joeghodsi/progress-indicator/issues"
+  },
+  "description": "Simple D3 + Angular progress indicator",
+  "dependencies": {
+    "express": "~4.6.1"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "devDependencies": {},
+  "license": "BSD-2-Clause"
+}
