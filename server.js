@@ -17,11 +17,11 @@ app.get('/api/test', function(req, res) {
   res.send('Hello World!');
 });
 
-//single file view of the app
+//application - single file view of the app
 
 app.get('*', function(req, res) {
   res.sendfile('./public/index.html');
 });
 
 app.listen(app.get('port'));
-console.log("App listening on port " + apt.get('port'));
+console.log("App listening on port " + app.get('port'));
