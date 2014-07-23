@@ -1,15 +1,18 @@
 <!doctype html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="progressIndictatorApp">
 <head>
-  <meta charset="utf-8">
-  <title>progress-indicator app</title>
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
-  <!-- <link rel="stylesheet" href="css/app.css"> -->
-  <script src="bower_components/angular/angular.js"></script>
+    <meta charset="utf-8">
+    <title>progress-indicator app</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="css/app.css"> -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="js/controllers.js"></script>
 </head>
-<body>
+<body ng-controller="progressController">
 
-  <p>Nothing here {{'yet' + '!'}}</p>
+    <!-- View -->
+    <p>actual = {{ actual }}</p>
+    <p>expected = {{ expected }}</p>
 
 </body>
 </html>
