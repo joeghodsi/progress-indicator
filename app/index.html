@@ -1,18 +1,25 @@
 <!doctype html>
-<html lang="en" ng-app="progressIndictatorApp">
+<html lang="en" ng-app="progressIndicatorApp">
 <head>
     <meta charset="utf-8">
     <title>progress-indicator app</title>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
-    <!-- <link rel="stylesheet" href="css/app.css"> -->
+    <link rel="stylesheet" href="css/graph.css">
     <script src="bower_components/angular/angular.js"></script>
-    <script src="js/controllers.js"></script>
+    <script src="bower_components/d3/d3.js"></script>
+    <script src="js/progressIndicator.js"></script>
 </head>
-<body ng-controller="progressController">
+<body>
 
-    <!-- View -->
-    <p>actual = {{ actual }}</p>
-    <p>expected = {{ expected }}</p>
+    <div ng-controller="progressController">
+
+        <!-- View -->
+        <p>actual = <input type="number" ng-init="actual=0.73" ng-model="actual"></p>
+        <p>expected = <input type="number" ng-init="expected=0.5" ng-model="expected"></p>
+
+        <ng-progress-indicator actual="actual" expected="expected"></ng-progress-indicator>
+
+    </div>
 
 </body>
 </html>
