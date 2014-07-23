@@ -1,0 +1,21 @@
+{
+  "name": "progress-indicator",
+  "description": "Simple D3 + Angular progress indicator",
+  "version": "0.0.1",
+  "license": "Unlicense",
+  "author": "joeghodsi",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joeghodsi/progress-indicator.git"
+  },
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-mocks": "~1.2.x",
+    "jquery": "1.10.2",
+    "bootstrap": "~3.1.1",
+    "angular-route": "~1.2.x",
+    "angular-resource": "~1.2.x",
+    "angular-animate": "~1.2.x"
+  }
+}
