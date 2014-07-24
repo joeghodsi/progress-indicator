@@ -1,3 +1,4 @@
 Design shortcomings
 - I used nodejs express for my server which is overkill for this no-server project.
     - I could have simply used something like https://github.com/nodeapps/http-server
+- Included scripts in the head. Might be more appropriate to include d3 in the body
