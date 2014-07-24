@@ -2,3 +2,10 @@ Design shortcomings
 - I used nodejs express for my server which is overkill for this no-server project.
     - I could have simply used something like https://github.com/nodeapps/http-server
 - Included scripts in the head. Might be more appropriate to include d3 in the body
+- No coffeescript
+- Could have pulled the data in via backend api to demonstrate how to access data via urls
+- Could have written css for styling rather than hardcoded.
+- progress text is broken / won't update
+- create multiple svg with each data update
+- wanted to add a slider for expected and actual. Would have made UX better and bounded the data between 0 and 1
+- wanted to change the fonts

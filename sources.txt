@@ -2,6 +2,5 @@
 http://www.ng-newsletter.com/posts/d3-on-angular.html
 http://www.ng-newsletter.com/posts/directives.html
 https://github.com/angular/angular-seed
-https://medium.com/@matheusrma/deploying-angular-seed-to-heroku-12a5bb907467
 https://docs.angularjs.org/tutorial
 http://scotch.io/tutorials/javascript/creating-a-single-page-todo-app-with-node-and-angular

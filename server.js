@@ -11,12 +11,6 @@ app.use(bodyParser.urlencoded({                 // pull information from html in
   extended: true
 }));
 
-//api
-
-app.get('/api/test', function(req, res) {
-  res.send('Hello World!');
-});
-
 //application - single file view of the app
 
 app.get('*', function(req, res) {
